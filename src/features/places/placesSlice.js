@@ -1,8 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  selected: null,    // the latest selected place
-  searches: [],      // all searches user has tried (history)
+  selected: null,   
+  searches: [],     
 };
 
 const placesSlice = createSlice({
